@@ -46,10 +46,12 @@
      font-family: "Raleway", sans-serif;
  }
 
+/*
  img {
      -webkit-filter: grayscale(100%);
      Safari 6.0 - 9.0 filter: grayscale(100%);
  }
+*/
 
  /*
  video {
@@ -561,6 +563,9 @@
      line-height: 24px;
      margin-bottom: 30px;
  }
+.service-tab {
+    background-color: #fff;
+}
 
  /* ================================
             Shadow
