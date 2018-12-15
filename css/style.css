@@ -299,7 +299,7 @@
  }
 
  #about-02 {
-     background: url("../img/about/yerupaja.jpg") no-repeat fixed center;
+     background: url("../img/about/clean-desk.jpg") no-repeat fixed center;
      background-size: cover;
  }
 
@@ -365,7 +365,8 @@
 
  .team-member {
      margin: 8px;
- }
+ } 
+
 
  /* ================================
             Slider Button
@@ -719,7 +720,6 @@
 ================================*/
  #testimonials {
      background: #f4f4f4;
-     padding-bottom: 45px;
      overflow: visible;
  }
 
@@ -728,12 +728,11 @@
      margin-bottom: 50px;
  }
 
- #testimonial-slider {
-     background: #fff;
-     top: 20px;
-     color: #000;
-     border-radius: 25px;
- }
+
+#testimonial-slider {
+    background: #E0E0E0;
+    height: 100%;
+}
 
  .testimonial .row {
      margin-bottom: 25px;
@@ -949,7 +948,9 @@
 /* =========================================
                 Contact
 ============================================ */
+
 /* Contact Left */
+
 
 #contact-left p {
     margin: 25px 0 20px 0;
@@ -984,3 +985,11 @@ ul.office-details li i {
     border-color: transparent;
 }
 
+#contact .content-box-md {
+    padding: 0 !important;
+}
+
+.team-member img {
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
