@@ -365,7 +365,7 @@
 
  .team-member {
      margin: 8px;
- } 
+ }
 
 
  /* ================================
@@ -729,10 +729,10 @@
  }
 
 
-#testimonial-slider {
-    background: #E0E0E0;
-    height: 100%;
-}
+ #testimonial-slider {
+     background: #E0E0E0;
+     height: 100%;
+ }
 
  .testimonial .row {
      margin-bottom: 25px;
@@ -945,51 +945,70 @@
      transform: translateY(-20px);
  }
 
-/* =========================================
+ /* =========================================
                 Contact
 ============================================ */
 
-/* Contact Left */
+ /* Contact Left */
 
 
-#contact-left p {
-    margin: 25px 0 20px 0;
-}
+ #contact-left p {
+     margin: 25px 0 20px 0;
+ }
 
-ul.office-details {
-    list-style: none;
-    padding: 0;
-}
+ ul.office-details {
+     list-style: none;
+     padding: 0;
+ }
 
-ul.office-details li {
-    font-family: "Open Sans", sans-serif;
-    margin-top: 12px;
-    display: -webkit-inline-box;
-    display: -ms-inline-flexbox;
-    display: inline-flex;
-}
+ ul.office-details li {
+     font-family: "Open Sans", sans-serif;
+     margin-top: 12px;
+     display: -webkit-inline-box;
+     display: -ms-inline-flexbox;
+     display: inline-flex;
+ }
 
-ul.office-details li i {
-    font-size: 20px;
-    width: 45px;
-}
+ ul.office-details li i {
+     font-size: 20px;
+     width: 45px;
+ }
 
-#contact-left ul.social-list li a {
-    color: #212226;
-    border: 1px solid #212226;
-    text-align: center;
-}
+ #contact-left ul.social-list li a {
+     color: #212226;
+     border: 1px solid #212226;
+     text-align: center;
+ }
 
-#contact-left ul.social-list li a:hover {
-    color: #fff;
-    border-color: transparent;
-}
+ #contact-left ul.social-list li a:hover {
+     color: #fff;
+     border-color: transparent;
+ }
 
-#contact .content-box-md {
-    padding: 0 !important;
-}
+ #contact .content-box-md {
+     padding: 0 !important;
+ }
 
-.team-member img {
-  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-  filter: grayscale(100%);
-}
+ .team-member img {
+     -webkit-filter: grayscale(100%);
+     /* Safari 6.0 - 9.0 */
+     filter: grayscale(100%);
+ }
+
+ /* =========================================
+                Footer
+============================================ */
+
+ footer {
+     background: #212226;
+     padding: 30px;
+ }
+
+ footer p {
+     color: #fff;
+     line-height: 20px;
+ }
+
+ footer p span {
+     color: #ff1654
+ }
