@@ -110,3 +110,37 @@
          time: 2000
      });
  });
+
+ /* =========================================
+                Navigation
+ ============================================ */
+
+ $(function () {
+     showHideNav();
+
+     $(window).scroll(function () {
+         showHideNav()
+     });
+
+     function showHideNav() {
+         if ($(window).scrollTop() > 50) {
+             $("nav").addClass("white-nav-top");
+             $("#back-to-top").fadeIn();
+         } else {
+             $("nav").removeClass("white-nav-top");
+             $("#back-to-top").fadeOut();
+         }
+     }
+ });
+
+ // Smooth Scrolling 
+ $(function () {
+     $("a.smooth-scroll").click(function (event) {
+         event.preventDefault();
+         //get section id
+         var section_id = $(this).attr("href");
+         $("html, body").animate({
+             scrollTop: $(section_id).offset().top - 64
+         }, 1250, "easeInOutExpo");
+     });
+ });
