@@ -369,9 +369,10 @@
  /* ================================
             Team
 ================================*/
-#team {
-    padding-bottom: 100px;
-}
+ #team {
+     padding-bottom: 100px;
+ }
+
  #team-left {
      min-height: 160px;
  }
@@ -385,7 +386,7 @@
             Slider Button
 ================================*/
  .owl-theme .owl-nav [class*=owl-] {
-     color: #000 !important;
+     color: #ff1654 !important;
      background: none;
      margin: 0 20px;
      font-size: 40px !important;
@@ -732,56 +733,57 @@
             Experience
 ================================*/
  #testimonials {
-    background: #f4f4f4;
-    padding-bottom: 45px;
-    overflow: visible;
-}
+     background: #f4f4f4;
+     padding-bottom: 45px;
+     overflow: visible;
+ }
 
-#testimonials .vertical-heading {
-    padding: 80px 0;
-    margin-bottom: 50px;
-}
+ #testimonials .vertical-heading {
+     padding: 80px 0;
+     margin-bottom: 50px;
+ }
 
-#testimonial-slider {
-    background: #ff1654;
-    top: -120px;
-}
+ #testimonial-slider {
+     background: linear-gradient(0deg, #000, #262626);
+     top: -120px;
+ }
 
-.testimonial .row {
-    margin-bottom: 25px;
-}
+ .testimonial .row {
+     margin-bottom: 25px;
+ }
 
-.testimonial {
-    padding: 20px 45px 0 45px;
-    color: #fff;
-}
+ .testimonial {
+     padding: 20px 45px 0 45px;
+     color: #fff;
+ }
 
-.testimonial h3 {
-    font-size: 32px;
-    line-height: 35px;
-}
+ .testimonial h3 {
+     font-size: 32px;
+     line-height: 35px;
+ }
 
-.testimonial .stars {
-    font-size: 20px;
-    margin: 20px 0 10px 0;
-}
+ .testimonial .stars {
+     font-size: 20px;
+     margin: 20px 0 10px 0;
+ }
 
-.testimonial p {
-    line-height: normal;
-    margin: 0;
-    margin-top: 5px;
-    margin-bottom: 20px;
-}
+ .testimonial p {
+     line-height: normal;
+     margin: 0;
+     margin-top: 5px;
+     margin-bottom: 20px;
+ }
 
-.author .author-name-des {
-    width: 106px;
-    margin-top: 25px;
-    text-align: left;
-}
+ .author .author-name-des {
+     width: 106px;
+     margin-top: 25px;
+     text-align: left;
+ }
 
-.author .author-name-des p {
-    margin: 0;
-}
+ .author .author-name-des p {
+     margin: 0;
+ }
+
  /* =========================================
                 Pricing
 ============================================ */

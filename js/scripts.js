@@ -12,7 +12,7 @@
  $(function () { // Short form on ready method
      $("#team-members").owlCarousel({
          items: 2,
-         autoplay: true,
+         autoplay: false,
          smartSpeed: 1000,
          loop: true,
          autoplayHoverPause: true,
