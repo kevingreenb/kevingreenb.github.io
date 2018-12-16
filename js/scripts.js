@@ -92,7 +92,7 @@
  $(function () { // Short form on ready method
      $("#testimonial-slider").owlCarousel({
          items: 1,
-         autoplay: true,
+         autoplay: false,
          smartSpeed: 1000,
          loop: true,
          autoplayHoverPause: true,
