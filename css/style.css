@@ -1029,6 +1029,7 @@
  footer p {
      color: #fff;
      line-height: 20px;
+     margin: 0;
  }
 
  footer p span {
